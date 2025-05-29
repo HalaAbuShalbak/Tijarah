@@ -4,6 +4,8 @@ import Login from "./components/Login";
 import NoPage from "./components/NoPage";
 import Dashboard from "./components/Dashboard"
 import Products from "./components/Products"
+import Cart from "./components/Cart"
+import SignUp from "./components/SignUp"
 import {  Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -13,6 +15,11 @@ function App() {
   <Route path="/login" element={<Login />} />
   <Route path="/dashboard" element={<Dashboard />} />
   <Route path="/product/:id" element={<Products />} />
+  <Route path="/cart" element={<Cart />} />
+  <Route path="/signUp" element={<SignUp />} />
+
+
+
   <Route path="*" element={<NoPage />} />
 </Routes>
 

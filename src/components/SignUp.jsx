@@ -11,7 +11,7 @@ const Login = () => {
             className="mx-auto h-10 w-auto"
           />
           <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-            Sign in to your account
+            Register a new account
           </h2>
         </div>
 
@@ -38,11 +38,10 @@ const Login = () => {
                 <label htmlFor="password" className="block text-sm/6 font-medium text-gray-900">
                   Password
                 </label>
-                <div className="text-sm">
-                  <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
-                    Forgot password?
-                  </a>
-                </div>
+                   <label htmlFor="password" className="block text-sm/6 font-medium text-gray-900">
+                   Retype your password
+                </label>
+               
               </div>
               <div className="mt-2">
                 <input
@@ -61,17 +60,12 @@ const Login = () => {
                 type="submit"
                 className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Sign in
+                Sign up
               </button>
             </div>
           </form>
 
-          <p className="mt-10 text-center text-sm/6 text-gray-500">
-            Not a member?{' '}
-            <a href="/signUp" className="font-semibold text-indigo-600 hover:text-indigo-500">
-              SignUp
-            </a>
-          </p>
+       
         </div>
       </div>
     

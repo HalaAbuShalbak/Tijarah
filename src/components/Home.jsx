@@ -20,14 +20,7 @@ Libero aliquam repudiandae facere. Praesentium, natus! Magni assumenda suscipit 
 Fugiat excepturi hic placeat iure veniam, ad quam voluptas quod delectus dolores sed ut at earum culpa facere perspiciatis necessitatibus ratione blanditiis expedita modi ipsa eligendi. Rem delectus aliquam similique!
 Perferendis dolorem debitis natus molestiae consectetur corporis ratione officiis eius tempora aliquid exercitationem eum, veritatis minima iste. Excepturi sequi labore ipsa deleniti modi ipsum, amet et molestiae asperiores sint tempora.
       </div>
-      <div id="contact">
-
-CONT
-      </div>
-      <div id="newArr">
-
-NEW
-      </div>
+     
       <Footer/>
     </>
   );

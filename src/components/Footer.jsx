@@ -27,7 +27,8 @@ const Footer = () => {
     <strong>Useful Links</strong>
     <a className="hover:animate-pulse underline" href="#about">About Us</a>
     <a className="hover:animate-pulse underline" href="#categories">Categories</a>
-    <a className="hover:animate-pulse underline" href="#newArr">New Arrivals</a>
+    <a className="hover:animate-pulse underline" href="/dashboard">All Items</a>
+
   </div>
 
   <div className="flex flex-col gap-2 text-sm text-start">
