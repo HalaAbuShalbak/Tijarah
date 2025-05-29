@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Categories from "./Categories";
 
 const Home = () => {
   return (
@@ -8,8 +9,7 @@ const Home = () => {
       <Navbar />
      
       <div id="categories">
-
-<h3>CATEGORIES</h3>
+<Categories/>
       </div>
       <div id="about">
 
