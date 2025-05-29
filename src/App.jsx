@@ -10,6 +10,9 @@ import {  Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
+    <div className="bg-red-500 text-white text-3xl h-screen flex items-center justify-center">
+      Tailwind is working!
+    </div>
  <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/login" element={<Login />} />
